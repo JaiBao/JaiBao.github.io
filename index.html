@@ -210,16 +210,17 @@
         </div>
         <div class="col-12 col-md-6 px-md-2" data-aos="zoom-in" data-aos-duration="1500">
             <div class="card m-auto" style="height:100%">
-                <a href="https://xlinfoods.com">
-                    <img src="./img/BT.jpg" class="card-img-top img-cover h-80" style="object-fit: contain;">
+                <a href="https://www.beifoodorder.com/">
+                    <img src="./img/btf.jpg" class="card-img-top img-cover h-80" style="object-fit: contain;">
                     <div class="card-body">
-                        <h3>多廠商購物網站(製作中)</h3>
+                        <h3>政府補助案(北台灣企業團購網)</h3>
                         <p class="card-text">
-                            會員使用jwt認證，一張訂單可能會有多廠商商品，廠商僅可見自己的商品，可選擇是否接受訂單，訂單狀態會隨個訂單內各廠商接受與否自動變動，並使用socket.io讓server與前端交互，用於即時提醒管理訂單人員訂單狀態變動，並記錄變動歷史log方便查閱及後續執行。
-                            目前正在製作中
+                            購物網站-前(Nuxt.js)後端(Node.js)製作，會員使用jwt認證，新訂單使用socket.io讓server與前端交互，用於即時提醒廠商有新訂單，並於後台使用chart.js
+                            、D3.js
+                            做出訂單、會員等圖樣式分析呈現。
                         </p>
                         <ul>
-                            <li>Vue3 & Nuxt</li>
+                            <li>Vue3 & Nuxt & chart.js &D3.js </li>
                             <li>Node.js & socket.io & clodinary</li>
                             <li>Mysql & docker & Nginx</li>
                         </ul>
@@ -245,9 +246,10 @@
                 <div class="col-12">
                     <h3>廠商功能</h3>
                     <ul>
-                        <li>個人資料修改:提供資料、密碼等異動、廠商可自行上傳自己頁面banner及商店圖片</li>
-                        <li>商品管理:提供該帳號上下架、商品圖片、價錢等設定，並提供查詢功能</li>
-                        <li>訂單管理:廠商可見訂單，但不可見不屬於自己的商品，由網站管理統籌訂單</li>
+                        <li>個人資料修改:提供資料、密碼等異動、廠商可自行上傳自己頁面banner、商店圖片及商品分類、店家簡介等設定</li>
+                        <li>商品管理:提供該帳號上下架、商品圖片、價錢、 等設定，並提供查詢功能</li>
+                        <li>訂單管理:訂單管理、營業額統計產出，並提供查詢功能</li>
+                        <li>分析圖表:顧客、餐點、會員分析等等分析圖示</li>
                     </ul>
                 </div>
                 <div class="col-12">
@@ -256,7 +258,9 @@
                         <li>個人資料修改:提供資料、密碼等異動</li>
                         <li>商品管理:可見全部廠商的商品設定，並提供查詢功能</li>
                         <li>訂單管理:可見全部訂單及商品所屬廠商資料及狀態</li>
-                        <li>帳號管理:權限異動、帳號開關、密碼重製</li>
+                        <li>帳號管理:權限異動、帳號開關、密碼重製、廠商審核</li>
+                        <li>輪播管理:首頁輪播圖配置</li>
+                        <li>分析圖表:顧客、餐點、會員分析等等分析圖示</li>
                     </ul>
                 </div>
 
